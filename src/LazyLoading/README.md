@@ -1,0 +1,2 @@
+What is Lazy Loading?
+Lazy loading allows you to load components asynchronously. This means that the component is only fetched from the server when it’s actually needed, rather than at the initial page load. This can reduce the initial bundle size and improve the performance of your app.
