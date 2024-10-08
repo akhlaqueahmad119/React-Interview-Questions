@@ -8,6 +8,8 @@ import ContextProvider from "./useContext/ContextProvider";
 import TextContext from "./useContext/TextContext";
 import ReduxComponent from "./Redux/ReduxComponent";
 import UserList from "./Redux-Thunk/UserList";
+import AutomaticCounter from "./CounterInReact/AutomaticCounter";
+import CounterButton from "./CounterInReact/CounterButton";
 // import Parent from "./Parent Child/Parent";
 // import UseEffect from "./useEffect/UseEffect.jsx";
 // import Memo from "./Memo/Memo.jsx";
@@ -46,10 +48,12 @@ function App() {
         <TextContext/>
        </ContextProvider> 
       {/* <ReduxComponent/> */}
-      <ContextProvider>
+      {/* <ContextProvider>
         <TextContext />
       </ContextProvider>
-      <UserList />
+      <UserList /> */}
+      {/* <AutomaticCounter/> */}
+      <CounterButton/>
     </>
   );
 }
