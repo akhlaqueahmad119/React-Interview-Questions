@@ -11,7 +11,7 @@ import UserList from "./Redux-Thunk/UserList";
 import AutomaticCounter from "./CounterInReact/AutomaticCounter";
 import CounterButton from "./CounterInReact/CounterButton";
 // import Parent from "./Parent Child/Parent";
-// import UseEffect from "./useEffect/UseEffect.jsx";
+import UseEffect from "./useEffect/UseEffect.jsx";
 // import Memo from "./Memo/Memo.jsx";
 //  import UseRef from "./UseRef/UseRef.jsx";
 // import Parent from "./useCallBack/Parent.jsx";
@@ -27,7 +27,7 @@ function App() {
   return (
     <>
       <h1>Allah Paak</h1>
-      {/* <UseEffect /> */}
+      <UseEffect />
       {/* <Memo /> */}
       {/* <UseRef /> */}
       {/* <Parent/> */}
@@ -53,7 +53,7 @@ function App() {
       </ContextProvider>
       <UserList /> */}
       {/* <AutomaticCounter/> */}
-      <CounterButton/>
+      {/* <CounterButton/> */}
     </>
   );
 }
