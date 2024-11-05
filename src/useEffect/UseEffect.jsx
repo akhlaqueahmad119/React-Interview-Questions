@@ -7,13 +7,11 @@ export default function UseEffect() {
         if (prevCount === 9) {
           clearInterval(intervalId);
         }
-        return prevCount+1
+        return prevCount + 1;
       });
     }, 1000);
     // Cleanup the interval on component unmount
-    return () => {
-      clearInterval(intervalId);
-    };
+    return () => clearInterval(intervalId);
   }, []);
 
   return (
