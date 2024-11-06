@@ -11,9 +11,9 @@ import UserList from "./Redux-Thunk/UserList";
 import AutomaticCounter from "./CounterInReact/AutomaticCounter";
 import CounterButton from "./CounterInReact/CounterButton";
 // import Parent from "./Parent Child/Parent";
-import UseEffect from "./useEffect/UseEffect.jsx";
+// import UseEffect from "./useEffect/UseEffect.jsx";
 // import Memo from "./Memo/Memo.jsx";
-//  import UseRef from "./UseRef/UseRef.jsx";
+ import UseRef from "./UseRef/UseRef.jsx";
 // import Parent from "./useCallBack/Parent.jsx";
 // import CounterComponent from "./CustomHook/CounterComponent.jsx";
 // import ObjectUseState from "./Immutable State/ObjectUseState.jsx";
@@ -21,16 +21,16 @@ import UseEffect from "./useEffect/UseEffect.jsx";
 // import Parent from "./Hoc/Parent.jsx";
 // const LazyLoading = lazy(() => import('./LazyLoading/LazyLoading'));
 // const Parent = lazy(() => import("./Parent Child/Parent"));
-import UseReducers from "./useReducer/UseReducers.jsx";
-import UseReducer from "./useReducer/UseReducer.jsx";
+// import UseReducers from "./useReducer/UseReducers.jsx";
+// import UseReducer from "./useReducer/UseReducer.jsx";
 
 function App() {
 
   return (
     <>
       <h1>Learning React</h1>
-      <UseReducer />
-      <UseReducers />
+      {/* <UseReducer />
+      <UseReducers /> */}
 
       {/* <UseEffect /> */}
       {/* <Memo /> */}
@@ -57,8 +57,8 @@ function App() {
         <TextContext />
       </ContextProvider>
       <UserList /> */}
-      {/* <AutomaticCounter/> */}
-      {/* <CounterButton/> */}
+      <AutomaticCounter/>
+      <CounterButton/>
     </>
   );
 }

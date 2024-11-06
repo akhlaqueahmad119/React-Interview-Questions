@@ -1,12 +1,16 @@
 import React from "react";
 const CounterButton = () => {
   const [count, setCount] = React.useState(0);
-  const [id, setId] = React.useState(null);
   function handleClick() {
-    const id = setInterval(() => setCount((pre) => pre + 1), 1000);
-    setId(id)
+    const id = setInterval(() =>
+      setCount((pre) => {
+        if (pre === 9) {
+          console.log(pre)
+          clearInterval(id);
+        }
+        return pre+1
+      }), 1000);
   }
-  if (count === 20) clearInterval(id);
   return (
     <>
       <h1>{count}</h1>

@@ -4,13 +4,13 @@ function UseRef() {
   // const ref = React.useRef();
   const inputRef = React.useRef(null);
   const [count, setCount] = React.useState(0);
-  const prevCountRef = React.useRef({});
+  const prevCountRef = React.useRef(0);
   console.log(prevCountRef, "n");
   React.useEffect(() => {
     // Store the previous count value
-    console.log(count);
-    prevCountRef.current = count;
-    console.log("Akhlaque");
+      console.log("Previous count: ", prevCountRef.current);
+      prevCountRef.current = count;
+      console.log("Current count: ", count);
   }, [count]);
 
   React.useEffect(() => {
