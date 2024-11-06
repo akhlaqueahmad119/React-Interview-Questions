@@ -21,13 +21,18 @@ import UseEffect from "./useEffect/UseEffect.jsx";
 // import Parent from "./Hoc/Parent.jsx";
 // const LazyLoading = lazy(() => import('./LazyLoading/LazyLoading'));
 // const Parent = lazy(() => import("./Parent Child/Parent"));
+import UseReducers from "./useReducer/UseReducers.jsx";
+import UseReducer from "./useReducer/UseReducer.jsx";
 
 function App() {
 
   return (
     <>
-      <h1>Allah Paak</h1>
-      <UseEffect />
+      <h1>Learning React</h1>
+      <UseReducer />
+      <UseReducers />
+
+      {/* <UseEffect /> */}
       {/* <Memo /> */}
       {/* <UseRef /> */}
       {/* <Parent/> */}
