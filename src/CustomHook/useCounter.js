@@ -1,6 +1,6 @@
 import React from 'react'
 
-const UseCounter = (inititalVal = 0) => {
+const useCounter = (inititalVal = 0) => {
   console.log(React)
   const [count, setCount] = React.useState(0)
   
@@ -16,4 +16,4 @@ const UseCounter = (inititalVal = 0) => {
   return {count, decrement, increment,reset}
 }
 
-export default UseCounter
+export default useCounter

@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
-import UseCounter from './UseCounter'
+import useCounter from './useCounter'
 const CounterComponent = () => {
-const { count, increment, decrement, reset } = UseCounter()
+const { count, increment, decrement, reset } = useCounter()
   return (
     <Fragment>
       <h1>{count}</h1>

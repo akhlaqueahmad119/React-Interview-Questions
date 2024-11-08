@@ -14,6 +14,7 @@ import CounterButton from "./CounterInReact/CounterButton";
 // import UseEffect from "./useEffect/UseEffect.jsx";
 // import Memo from "./Memo/Memo.jsx";
  import UseRef from "./UseRef/UseRef.jsx";
+import UserList1 from "./CustomHook/UserList1.jsx";
 // import Parent from "./useCallBack/Parent.jsx";
 // import CounterComponent from "./CustomHook/CounterComponent.jsx";
 // import ObjectUseState from "./Immutable State/ObjectUseState.jsx";
@@ -29,6 +30,7 @@ function App() {
   return (
     <>
       <h1>Learning React</h1>
+      <UserList1/>
       {/* <UseReducer />
       <UseReducers /> */}
 
@@ -57,8 +59,8 @@ function App() {
         <TextContext />
       </ContextProvider>
       <UserList /> */}
-      <AutomaticCounter/>
-      <CounterButton/>
+      {/* <AutomaticCounter/>
+      <CounterButton/> */}
     </>
   );
 }
