@@ -1,12 +1,12 @@
 import { useState } from "react"
-import CreateContext from "./CreateContext"
+import MyContext from "./CreateContext";
 const ContextProvider = ({children}) => {
 const [count,setCount] = useState(0)
   return (
     <>
-      <CreateContext.Provider value={{ count, setCount }}>
+      <MyContext.Provider value={{ count, setCount }}>
         {children}
-      </CreateContext.Provider>
+      </MyContext.Provider>
     </>
   );
 }

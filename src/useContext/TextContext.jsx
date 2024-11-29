@@ -1,8 +1,8 @@
 import React, { useContext } from 'react'
-import CreateContext from "./CreateContext";
+import MyContext from "./CreateContext";
 
 const TextContext = () => {
-  const { count, setCount } = useContext(CreateContext);
+  const { count, setCount } = useContext(MyContext);
   console.log(count)
   return (
     <div>

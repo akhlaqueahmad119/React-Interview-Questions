@@ -13,7 +13,7 @@ the cleanup function call when the component will unmount or the useEffect re-ru
 
 Note : 
 Cleanup function call at the time of rerender and at the time of unmounting.
-It calls only two time
+It calls only two times.
 
 eg :-
  function ExampleComponent() {
